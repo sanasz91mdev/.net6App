@@ -1,0 +1,588 @@
+2021-12-24 14:07:43.952 +05:00 [DBUG] [] Found validator UserValidator
+2021-12-24 14:07:43.972 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2021-12-24 14:07:43.972 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2021-12-24 14:07:45.013 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2021-12-24 14:07:45.296 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2021-12-24 14:07:45.297 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2021-12-24 14:07:45.297 +05:00 [INFO] [] Hosting environment: Development
+2021-12-24 14:07:45.298 +05:00 [INFO] [] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-24 14:14:15.171 +05:00 [INFO] [0HME6NJCK909P:00000001] Get users v1 called.
+2021-12-24 14:30:33.532 +05:00 [INFO] [0HME6NJCK909P:00000003] Get users v1 called.
+2021-12-24 14:35:26.954 +05:00 [DBUG] [] Found validator UserValidator
+2021-12-24 14:35:26.965 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2021-12-24 14:35:26.966 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2021-12-24 14:35:27.673 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2021-12-24 14:35:27.859 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2021-12-24 14:35:27.860 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2021-12-24 14:35:27.860 +05:00 [INFO] [] Hosting environment: Development
+2021-12-24 14:35:27.861 +05:00 [INFO] [] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-24 14:35:29.478 +05:00 [INFO] [0HME6O2S8A9N3:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2021-12-24 14:35:29.575 +05:00 [INFO] [0HME6O2S8A9N3:00000001] Response Body: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"API"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2021-12-24 14:35:29.988 +05:00 [INFO] [0HME6O2S8A9N3:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2021-12-24 14:35:30.147 +05:00 [INFO] [0HME6O2S8A9N3:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
+2021-12-24 14:35:36.155 +05:00 [INFO] [0HME6O2S8A9N4:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/api/v1/users], Request Body: []
+2021-12-24 14:35:37.976 +05:00 [INFO] [0HME6O2S8A9N4:00000001] Get users v1 called.
+2021-12-24 14:35:42.317 +05:00 [INFO] [0HME6O2S8A9N4:00000001] Response Body: {"name":"sana","contact":"03323344553"}
+2021-12-24 14:43:59.082 +05:00 [INFO] [0HME6O2S8A9N5:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/api/v1/users], Request Body: []
+2021-12-24 14:44:00.358 +05:00 [INFO] [0HME6O2S8A9N5:00000001] Get users v1 called.
+2021-12-24 14:44:00.360 +05:00 [INFO] [0HME6O2S8A9N5:00000001] Response Body: {"name":"sana","contact":"03323344553"}
+2021-12-24 14:44:35.359 +05:00 [INFO] [0HME6O2S8A9N5:00000003] Http Method: [GET], Protoclol [HTTP/2], Path [/api/v1/users], Request Body: []
+2021-12-24 14:44:37.248 +05:00 [INFO] [0HME6O2S8A9N5:00000003] Get users v1 called.
+2021-12-24 14:44:37.249 +05:00 [INFO] [0HME6O2S8A9N5:00000003] Response Body: {"name":"sana","contact":"03323344553"}
+2021-12-24 14:45:01.233 +05:00 [DBUG] [] Found validator UserValidator
+2021-12-24 14:45:01.242 +05:00 [DBUG] [] Found module DigitalBanking.Modules.PaymentModule
+2021-12-24 14:45:01.242 +05:00 [DBUG] [] Found module AppNet6.Modules.UserModule
+2021-12-24 14:45:01.511 +05:00 [INFO] [] Now listening on: https://localhost:7224
+2021-12-24 14:45:01.664 +05:00 [INFO] [] Now listening on: http://localhost:5180
+2021-12-24 14:45:01.665 +05:00 [INFO] [] Application started. Press Ctrl+C to shut down.
+2021-12-24 14:45:01.666 +05:00 [INFO] [] Hosting environment: Development
+2021-12-24 14:45:01.666 +05:00 [INFO] [] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-24 14:45:02.939 +05:00 [INFO] [0HME6O8774DO6:00000001] Http Method: [GET], Protoclol [HTTP/2], Path [/index.html], Request Body: []
+2021-12-24 14:45:03.029 +05:00 [INFO] [0HME6O8774DO6:00000001] Response Body: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"API"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2021-12-24 14:45:03.378 +05:00 [INFO] [0HME6O8774DO6:00000005] Http Method: [GET], Protoclol [HTTP/2], Path [/swagger/v1/swagger.json], Request Body: []
+2021-12-24 14:45:03.513 +05:00 [INFO] [0HME6O8774DO6:00000005] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/payment": {
+      "post": {
+        "tags": [
+          "PaymentModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
+2021-12-24 14:45:11.765 +05:00 [INFO] [0HME6O8774DO6:00000007] Http Method: [GET], Protoclol [HTTP/2], Path [/api/v1/users], Request Body: []
+2021-12-24 14:45:14.383 +05:00 [INFO] [0HME6O8774DO6:00000007] Get users v1 called.
+2021-12-24 14:45:14.388 +05:00 [INFO] [0HME6O8774DO6:00000007] Response Body: {"name":"sana","contact":"03323344553"}

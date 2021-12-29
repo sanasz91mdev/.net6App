@@ -1,0 +1,1267 @@
+2021-12-22 23:02:36.044 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:02:36.081 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:03:06.993 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:03:07.051 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:03:07.106 +05:00 [DBG] Hosting starting
+2021-12-22 23:03:07.430 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4AF406B3A348771EC5A0C3CD2D57DB5D5BE77FB9)
+2021-12-22 23:03:07.541 +05:00 [INF] Now listening on: https://localhost:7224
+2021-12-22 23:03:07.745 +05:00 [DBG] Connection id "0HME5EL7GHIDB" received FIN.
+2021-12-22 23:03:07.753 +05:00 [DBG] Connection id "0HME5EL7GHIDB" accepted.
+2021-12-22 23:03:07.754 +05:00 [DBG] Connection id "0HME5EL7GHIDB" started.
+2021-12-22 23:03:07.779 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:03:07.907 +05:00 [INF] Now listening on: http://localhost:5180
+2021-12-22 23:03:07.909 +05:00 [DBG] Loaded hosting startup assembly DigitalBanking
+2021-12-22 23:03:07.909 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-12-22 23:03:07.909 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2021-12-22 23:03:07.909 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 23:03:07.909 +05:00 [INF] Hosting environment: Development
+2021-12-22 23:03:07.910 +05:00 [INF] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-22 23:03:07.911 +05:00 [DBG] Hosting started
+2021-12-22 23:03:07.912 +05:00 [DBG] Connection id "0HME5EL7GHIDB" stopped.
+2021-12-22 23:03:07.915 +05:00 [DBG] Connection id "0HME5EL7GHIDB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:03:08.713 +05:00 [DBG] Connection id "0HME5EL7GHIDC" accepted.
+2021-12-22 23:03:08.713 +05:00 [DBG] Connection id "0HME5EL7GHIDC" started.
+2021-12-22 23:03:08.835 +05:00 [DBG] Connection 0HME5EL7GHIDC established using the following protocol: "Tls12"
+2021-12-22 23:03:08.923 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:03:08.969 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-12-22 23:03:09.002 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:03:09.002 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:03:09.139 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2021-12-22 23:03:09.364 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2021-12-22 23:03:09.368 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 - text/html;charset=utf-8 447.7562ms
+2021-12-22 23:03:09.564 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - -
+2021-12-22 23:03:09.572 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 7.9726ms
+2021-12-22 23:03:09.913 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - -
+2021-12-22 23:03:09.915 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-12-22 23:03:09.915 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:03:10.076 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 162.3481ms
+2021-12-22 23:03:17.284 +05:00 [DBG] Connection id "0HME5EL7GHIDC" received FIN.
+2021-12-22 23:03:17.289 +05:00 [DBG] Connection id "0HME5EL7GHIDC" is closed. The last processed stream ID was 5.
+2021-12-22 23:03:17.289 +05:00 [DBG] Connection id "0HME5EL7GHIDC" sending FIN because: "The client closed the connection."
+2021-12-22 23:03:17.291 +05:00 [DBG] Connection id "0HME5EL7GHIDC" stopped.
+2021-12-22 23:03:24.906 +05:00 [DBG] Connection id "0HME5EL7GHIDD" accepted.
+2021-12-22 23:03:24.909 +05:00 [DBG] Connection id "0HME5EL7GHIDD" started.
+2021-12-22 23:03:24.920 +05:00 [DBG] Connection 0HME5EL7GHIDD established using the following protocol: "Tls12"
+2021-12-22 23:03:24.930 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:03:24.937 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:03:24.937 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:03:24.938 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:03:24.951 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:03:31.970 +05:00 [INF] Hey there
+2021-12-22 23:03:35.911 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:03:35.917 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:03:35.918 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 10988.2095ms
+2021-12-22 23:03:37.287 +05:00 [DBG] Connection id "0HME5EL7GHIDD" received FIN.
+2021-12-22 23:03:37.287 +05:00 [DBG] Connection id "0HME5EL7GHIDD" is closed. The last processed stream ID was 1.
+2021-12-22 23:03:37.288 +05:00 [DBG] Connection id "0HME5EL7GHIDD" sending FIN because: "The client closed the connection."
+2021-12-22 23:03:37.289 +05:00 [DBG] Connection id "0HME5EL7GHIDD" stopped.
+2021-12-22 23:05:18.401 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:05:18.458 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:05:18.509 +05:00 [DBG] Hosting starting
+2021-12-22 23:05:18.740 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4AF406B3A348771EC5A0C3CD2D57DB5D5BE77FB9)
+2021-12-22 23:05:18.850 +05:00 [INF] Now listening on: https://localhost:7224
+2021-12-22 23:05:18.902 +05:00 [DBG] Connection id "0HME5EMEJBACM" received FIN.
+2021-12-22 23:05:18.915 +05:00 [DBG] Connection id "0HME5EMEJBACM" accepted.
+2021-12-22 23:05:18.916 +05:00 [DBG] Connection id "0HME5EMEJBACM" started.
+2021-12-22 23:05:18.945 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:05:19.005 +05:00 [DBG] Connection id "0HME5EMEJBACM" stopped.
+2021-12-22 23:05:19.008 +05:00 [DBG] Connection id "0HME5EMEJBACM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:05:19.120 +05:00 [INF] Now listening on: http://localhost:5180
+2021-12-22 23:05:19.121 +05:00 [DBG] Loaded hosting startup assembly DigitalBanking
+2021-12-22 23:05:19.121 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-12-22 23:05:19.121 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2021-12-22 23:05:19.121 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 23:05:19.122 +05:00 [INF] Hosting environment: Development
+2021-12-22 23:05:19.122 +05:00 [INF] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-22 23:05:19.123 +05:00 [DBG] Hosting started
+2021-12-22 23:05:19.547 +05:00 [DBG] Connection id "0HME5EMEJBACN" accepted.
+2021-12-22 23:05:19.549 +05:00 [DBG] Connection id "0HME5EMEJBACN" started.
+2021-12-22 23:05:19.666 +05:00 [DBG] Connection 0HME5EMEJBACN established using the following protocol: "Tls12"
+2021-12-22 23:05:19.755 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:05:19.794 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-12-22 23:05:19.822 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:05:19.822 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:05:19.961 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2021-12-22 23:05:20.080 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2021-12-22 23:05:20.084 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 - text/html;charset=utf-8 333.1747ms
+2021-12-22 23:05:20.123 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - -
+2021-12-22 23:05:20.131 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 7.8702ms
+2021-12-22 23:05:20.286 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - -
+2021-12-22 23:05:20.287 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-12-22 23:05:20.288 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:05:20.414 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.5614ms
+2021-12-22 23:05:22.305 +05:00 [DBG] Connection id "0HME5EMEJBACN" received FIN.
+2021-12-22 23:05:22.312 +05:00 [DBG] Connection id "0HME5EMEJBACN" is closed. The last processed stream ID was 5.
+2021-12-22 23:05:22.312 +05:00 [DBG] Connection id "0HME5EMEJBACN" sending FIN because: "The client closed the connection."
+2021-12-22 23:05:22.313 +05:00 [DBG] Connection id "0HME5EMEJBACN" stopped.
+2021-12-22 23:05:27.988 +05:00 [DBG] Connection id "0HME5EMEJBACO" accepted.
+2021-12-22 23:05:27.989 +05:00 [DBG] Connection id "0HME5EMEJBACO" started.
+2021-12-22 23:05:28.002 +05:00 [DBG] Connection 0HME5EMEJBACO established using the following protocol: "Tls12"
+2021-12-22 23:05:28.014 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:05:28.022 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:05:28.022 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:05:28.024 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:05:28.034 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:05:28.044 +05:00 [INF] Hey there
+2021-12-22 23:05:28.045 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:05:28.050 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:05:28.051 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 37.3162ms
+2021-12-22 23:05:32.307 +05:00 [DBG] Connection id "0HME5EMEJBACO" received FIN.
+2021-12-22 23:05:32.308 +05:00 [DBG] Connection id "0HME5EMEJBACO" is closed. The last processed stream ID was 1.
+2021-12-22 23:05:32.308 +05:00 [DBG] Connection id "0HME5EMEJBACO" sending FIN because: "The client closed the connection."
+2021-12-22 23:05:32.310 +05:00 [DBG] Connection id "0HME5EMEJBACO" stopped.
+2021-12-22 23:06:00.079 +05:00 [DBG] Connection id "0HME5EMEJBACP" accepted.
+2021-12-22 23:06:00.087 +05:00 [DBG] Connection id "0HME5EMEJBACP" started.
+2021-12-22 23:06:00.103 +05:00 [DBG] Connection 0HME5EMEJBACP established using the following protocol: "Tls12"
+2021-12-22 23:06:00.121 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:06:00.122 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:06:00.122 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:06:00.123 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:06:00.123 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:06:00.123 +05:00 [INF] Hey there
+2021-12-22 23:06:00.124 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:06:00.126 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:06:00.127 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 5.8135ms
+2021-12-22 23:06:02.312 +05:00 [DBG] Connection id "0HME5EMEJBACP" received FIN.
+2021-12-22 23:06:02.313 +05:00 [DBG] Connection id "0HME5EMEJBACP" is closed. The last processed stream ID was 1.
+2021-12-22 23:06:02.313 +05:00 [DBG] Connection id "0HME5EMEJBACP" sending FIN because: "The client closed the connection."
+2021-12-22 23:06:02.315 +05:00 [DBG] Connection id "0HME5EMEJBACP" stopped.
+2021-12-22 23:06:14.208 +05:00 [DBG] Connection id "0HME5EMEJBACQ" accepted.
+2021-12-22 23:06:14.208 +05:00 [DBG] Connection id "0HME5EMEJBACQ" started.
+2021-12-22 23:06:14.222 +05:00 [DBG] Connection 0HME5EMEJBACQ established using the following protocol: "Tls12"
+2021-12-22 23:06:14.233 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:06:14.234 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:06:14.234 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:06:14.234 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:06:14.234 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:06:16.042 +05:00 [INF] Hey there
+2021-12-22 23:06:53.884 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:06:53.937 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:06:53.938 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 39704.9490ms
+2021-12-22 23:06:57.325 +05:00 [DBG] Connection id "0HME5EMEJBACQ" received FIN.
+2021-12-22 23:06:57.326 +05:00 [DBG] Connection id "0HME5EMEJBACQ" is closed. The last processed stream ID was 1.
+2021-12-22 23:06:57.326 +05:00 [DBG] Connection id "0HME5EMEJBACQ" sending FIN because: "The client closed the connection."
+2021-12-22 23:06:57.327 +05:00 [DBG] Connection id "0HME5EMEJBACQ" stopped.
+2021-12-22 23:13:31.425 +05:00 [DBG] Connection id "0HME5EMEJBACR" accepted.
+2021-12-22 23:13:31.427 +05:00 [DBG] Connection id "0HME5EMEJBACR" started.
+2021-12-22 23:13:31.449 +05:00 [DBG] Connection 0HME5EMEJBACR established using the following protocol: "Tls12"
+2021-12-22 23:13:31.460 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:13:31.462 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:13:31.462 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:13:31.469 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2021-12-22 23:13:31.482 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2021-12-22 23:13:31.482 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 - text/html;charset=utf-8 22.4499ms
+2021-12-22 23:13:31.513 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - -
+2021-12-22 23:13:31.515 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 1.1484ms
+2021-12-22 23:13:31.745 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - -
+2021-12-22 23:13:31.746 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-12-22 23:13:31.747 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:13:31.748 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.1446ms
+2021-12-22 23:13:32.394 +05:00 [DBG] Connection id "0HME5EMEJBACR" received FIN.
+2021-12-22 23:13:32.394 +05:00 [DBG] Connection id "0HME5EMEJBACR" is closed. The last processed stream ID was 5.
+2021-12-22 23:13:32.394 +05:00 [DBG] Connection id "0HME5EMEJBACR" stopped.
+2021-12-22 23:13:32.395 +05:00 [DBG] Connection id "0HME5EMEJBACR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:14:02.661 +05:00 [DBG] Connection id "0HME5EMEJBACS" accepted.
+2021-12-22 23:14:02.661 +05:00 [DBG] Connection id "0HME5EMEJBACS" started.
+2021-12-22 23:14:02.679 +05:00 [DBG] Connection 0HME5EMEJBACS established using the following protocol: "Tls12"
+2021-12-22 23:14:02.696 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:14:02.698 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:14:02.698 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:14:02.704 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2021-12-22 23:14:02.713 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2021-12-22 23:14:02.716 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 - text/html;charset=utf-8 21.0355ms
+2021-12-22 23:14:02.760 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - -
+2021-12-22 23:14:02.770 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 10.5441ms
+2021-12-22 23:14:03.104 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - -
+2021-12-22 23:14:03.105 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-12-22 23:14:03.105 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:14:03.108 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.3894ms
+2021-12-22 23:14:12.401 +05:00 [DBG] Connection id "0HME5EMEJBACS" received FIN.
+2021-12-22 23:14:12.401 +05:00 [DBG] Connection id "0HME5EMEJBACS" is closed. The last processed stream ID was 5.
+2021-12-22 23:14:12.401 +05:00 [DBG] Connection id "0HME5EMEJBACS" sending FIN because: "The client closed the connection."
+2021-12-22 23:14:12.403 +05:00 [DBG] Connection id "0HME5EMEJBACS" stopped.
+2021-12-22 23:14:28.355 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:14:28.390 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:14:28.421 +05:00 [DBG] Hosting starting
+2021-12-22 23:14:28.595 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4AF406B3A348771EC5A0C3CD2D57DB5D5BE77FB9)
+2021-12-22 23:14:28.646 +05:00 [INF] Now listening on: https://localhost:7224
+2021-12-22 23:14:28.799 +05:00 [INF] Now listening on: http://localhost:5180
+2021-12-22 23:14:28.800 +05:00 [DBG] Loaded hosting startup assembly DigitalBanking
+2021-12-22 23:14:28.800 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-12-22 23:14:28.800 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2021-12-22 23:14:28.801 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 23:14:28.801 +05:00 [INF] Hosting environment: Development
+2021-12-22 23:14:28.802 +05:00 [INF] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-22 23:14:28.803 +05:00 [DBG] Hosting started
+2021-12-22 23:14:28.993 +05:00 [DBG] Connection id "0HME5ERIHDAOC" accepted.
+2021-12-22 23:14:28.993 +05:00 [DBG] Connection id "0HME5ERIHDAOD" accepted.
+2021-12-22 23:14:28.995 +05:00 [DBG] Connection id "0HME5ERIHDAOD" started.
+2021-12-22 23:14:28.995 +05:00 [DBG] Connection id "0HME5ERIHDAOC" started.
+2021-12-22 23:14:29.106 +05:00 [DBG] Connection id "0HME5ERIHDAOD" received FIN.
+2021-12-22 23:14:29.106 +05:00 [DBG] Connection id "0HME5ERIHDAOC" received FIN.
+2021-12-22 23:14:29.127 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:14:29.127 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:14:29.173 +05:00 [DBG] Connection id "0HME5ERIHDAOC" stopped.
+2021-12-22 23:14:29.173 +05:00 [DBG] Connection id "0HME5ERIHDAOD" stopped.
+2021-12-22 23:14:29.174 +05:00 [DBG] Connection id "0HME5ERIHDAOC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:14:29.174 +05:00 [DBG] Connection id "0HME5ERIHDAOD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:14:29.779 +05:00 [DBG] Connection id "0HME5ERIHDAOE" accepted.
+2021-12-22 23:14:29.781 +05:00 [DBG] Connection id "0HME5ERIHDAOE" started.
+2021-12-22 23:14:29.864 +05:00 [DBG] Connection 0HME5ERIHDAOE established using the following protocol: "Tls12"
+2021-12-22 23:14:29.935 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:14:29.968 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-12-22 23:14:29.994 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:14:29.995 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:14:48.939 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2021-12-22 23:14:49.056 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2021-12-22 23:14:49.058 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 - text/html;charset=utf-8 19127.2703ms
+2021-12-22 23:14:49.096 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - -
+2021-12-22 23:14:49.101 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 5.0192ms
+2021-12-22 23:14:49.228 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - -
+2021-12-22 23:14:49.229 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-12-22 23:14:49.230 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:14:51.893 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2664.2755ms
+2021-12-22 23:14:52.409 +05:00 [DBG] Connection id "0HME5ERIHDAOE" received FIN.
+2021-12-22 23:14:52.413 +05:00 [DBG] Connection id "0HME5ERIHDAOE" is closed. The last processed stream ID was 5.
+2021-12-22 23:14:52.414 +05:00 [DBG] Connection id "0HME5ERIHDAOE" sending FIN because: "The client closed the connection."
+2021-12-22 23:14:52.415 +05:00 [DBG] Connection id "0HME5ERIHDAOE" stopped.
+2021-12-22 23:15:21.726 +05:00 [DBG] Connection id "0HME5ERIHDAOF" accepted.
+2021-12-22 23:15:21.737 +05:00 [DBG] Connection id "0HME5ERIHDAOF" started.
+2021-12-22 23:15:21.759 +05:00 [DBG] Connection 0HME5ERIHDAOF established using the following protocol: "Tls12"
+2021-12-22 23:15:21.769 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:15:21.775 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:15:21.775 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:15:51.085 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:15:51.095 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:15:54.005 +05:00 [INF] Hey there
+2021-12-22 23:16:06.927 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:16:06.963 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:16:08.572 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 46801.5343ms
+2021-12-22 23:16:12.427 +05:00 [DBG] Connection id "0HME5ERIHDAOF" received FIN.
+2021-12-22 23:16:12.427 +05:00 [DBG] Connection id "0HME5ERIHDAOF" is closed. The last processed stream ID was 1.
+2021-12-22 23:16:12.427 +05:00 [DBG] Connection id "0HME5ERIHDAOF" stopped.
+2021-12-22 23:16:12.428 +05:00 [DBG] Connection id "0HME5ERIHDAOF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:27:44.990 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:27:45.039 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:27:45.079 +05:00 [DBG] Hosting starting
+2021-12-22 23:27:45.372 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4AF406B3A348771EC5A0C3CD2D57DB5D5BE77FB9)
+2021-12-22 23:27:45.427 +05:00 [INF] Now listening on: https://localhost:7224
+2021-12-22 23:27:45.526 +05:00 [DBG] Connection id "0HME5F2VTNLU0" accepted.
+2021-12-22 23:27:45.526 +05:00 [DBG] Connection id "0HME5F2VTNLU1" accepted.
+2021-12-22 23:27:45.527 +05:00 [DBG] Connection id "0HME5F2VTNLU1" started.
+2021-12-22 23:27:45.527 +05:00 [DBG] Connection id "0HME5F2VTNLU0" started.
+2021-12-22 23:27:45.591 +05:00 [DBG] Connection id "0HME5F2VTNLU0" received FIN.
+2021-12-22 23:27:45.591 +05:00 [DBG] Connection id "0HME5F2VTNLU1" received FIN.
+2021-12-22 23:27:45.617 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:27:45.617 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:27:45.701 +05:00 [INF] Now listening on: http://localhost:5180
+2021-12-22 23:27:45.704 +05:00 [DBG] Loaded hosting startup assembly DigitalBanking
+2021-12-22 23:27:45.704 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-12-22 23:27:45.704 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2021-12-22 23:27:45.705 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 23:27:45.705 +05:00 [INF] Hosting environment: Development
+2021-12-22 23:27:45.706 +05:00 [INF] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-22 23:27:45.707 +05:00 [DBG] Connection id "0HME5F2VTNLU1" stopped.
+2021-12-22 23:27:45.707 +05:00 [DBG] Connection id "0HME5F2VTNLU0" stopped.
+2021-12-22 23:27:45.707 +05:00 [DBG] Hosting started
+2021-12-22 23:27:45.708 +05:00 [DBG] Connection id "0HME5F2VTNLU1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:27:45.708 +05:00 [DBG] Connection id "0HME5F2VTNLU0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:27:46.368 +05:00 [DBG] Connection id "0HME5F2VTNLU2" accepted.
+2021-12-22 23:27:46.371 +05:00 [DBG] Connection id "0HME5F2VTNLU2" started.
+2021-12-22 23:27:46.487 +05:00 [DBG] Connection 0HME5F2VTNLU2 established using the following protocol: "Tls12"
+2021-12-22 23:27:46.598 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:27:46.637 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-12-22 23:27:46.674 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:27:46.674 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:27:56.743 +05:00 [INF] HTTP GET /index.html responded 200 in 120.2160 ms
+2021-12-22 23:27:56.833 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2021-12-22 23:27:56.861 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2021-12-22 23:27:56.864 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 - text/html;charset=utf-8 10271.6472ms
+2021-12-22 23:27:56.913 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - -
+2021-12-22 23:27:56.919 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 5.6238ms
+2021-12-22 23:27:57.078 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - -
+2021-12-22 23:27:57.079 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-12-22 23:27:57.079 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:27:58.856 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 154.5452 ms
+2021-12-22 23:27:58.857 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1779.4169ms
+2021-12-22 23:28:02.559 +05:00 [DBG] Connection id "0HME5F2VTNLU2" received FIN.
+2021-12-22 23:28:02.564 +05:00 [DBG] Connection id "0HME5F2VTNLU2" is closed. The last processed stream ID was 5.
+2021-12-22 23:28:02.564 +05:00 [DBG] Connection id "0HME5F2VTNLU2" sending FIN because: "The client closed the connection."
+2021-12-22 23:28:02.565 +05:00 [DBG] Connection id "0HME5F2VTNLU2" stopped.
+2021-12-22 23:28:19.874 +05:00 [DBG] Connection id "0HME5F2VTNLU3" accepted.
+2021-12-22 23:28:19.875 +05:00 [DBG] Connection id "0HME5F2VTNLU3" started.
+2021-12-22 23:28:19.893 +05:00 [DBG] Connection 0HME5F2VTNLU3 established using the following protocol: "Tls12"
+2021-12-22 23:28:19.904 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:28:19.911 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:28:19.912 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:28:41.053 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:28:41.062 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:28:42.137 +05:00 [INF] Hey there
+2021-12-22 23:28:45.307 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:28:45.352 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:28:45.380 +05:00 [INF] HTTP GET /api/v1/users responded 200 in 4302.4374 ms
+2021-12-22 23:28:49.640 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 29736.0953ms
+2021-12-22 23:28:52.569 +05:00 [DBG] Connection id "0HME5F2VTNLU3" received FIN.
+2021-12-22 23:28:52.570 +05:00 [DBG] Connection id "0HME5F2VTNLU3" is closed. The last processed stream ID was 1.
+2021-12-22 23:28:52.570 +05:00 [DBG] Connection id "0HME5F2VTNLU3" sending FIN because: "The client closed the connection."
+2021-12-22 23:28:52.571 +05:00 [DBG] Connection id "0HME5F2VTNLU3" stopped.
+2021-12-22 23:31:04.815 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:31:04.849 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:31:04.879 +05:00 [DBG] Hosting starting
+2021-12-22 23:31:05.051 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4AF406B3A348771EC5A0C3CD2D57DB5D5BE77FB9)
+2021-12-22 23:31:05.106 +05:00 [INF] Now listening on: https://localhost:7224
+2021-12-22 23:31:05.258 +05:00 [INF] Now listening on: http://localhost:5180
+2021-12-22 23:31:05.260 +05:00 [DBG] Loaded hosting startup assembly DigitalBanking
+2021-12-22 23:31:05.260 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-12-22 23:31:05.260 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2021-12-22 23:31:05.260 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 23:31:05.261 +05:00 [INF] Hosting environment: Development
+2021-12-22 23:31:05.262 +05:00 [INF] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-22 23:31:05.263 +05:00 [DBG] Hosting started
+2021-12-22 23:31:05.389 +05:00 [DBG] Connection id "0HME5F4RFP99S" accepted.
+2021-12-22 23:31:05.389 +05:00 [DBG] Connection id "0HME5F4RFP99T" accepted.
+2021-12-22 23:31:05.391 +05:00 [DBG] Connection id "0HME5F4RFP99S" started.
+2021-12-22 23:31:05.391 +05:00 [DBG] Connection id "0HME5F4RFP99T" started.
+2021-12-22 23:31:05.405 +05:00 [DBG] Connection id "0HME5F4RFP99S" received FIN.
+2021-12-22 23:31:05.405 +05:00 [DBG] Connection id "0HME5F4RFP99T" received FIN.
+2021-12-22 23:31:05.422 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:31:05.422 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:31:05.459 +05:00 [DBG] Connection id "0HME5F4RFP99T" stopped.
+2021-12-22 23:31:05.459 +05:00 [DBG] Connection id "0HME5F4RFP99S" stopped.
+2021-12-22 23:31:05.461 +05:00 [DBG] Connection id "0HME5F4RFP99S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:31:05.461 +05:00 [DBG] Connection id "0HME5F4RFP99T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:31:06.038 +05:00 [DBG] Connection id "0HME5F4RFP99U" accepted.
+2021-12-22 23:31:06.043 +05:00 [DBG] Connection id "0HME5F4RFP99U" started.
+2021-12-22 23:31:06.117 +05:00 [DBG] Connection 0HME5F4RFP99U established using the following protocol: "Tls12"
+2021-12-22 23:31:06.184 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:31:06.217 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-12-22 23:31:06.243 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:31:06.244 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:31:30.341 +05:00 [INF] HTTP GET /index.html responded 200 in 95.8863 ms
+2021-12-22 23:31:30.422 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2021-12-22 23:31:30.442 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2021-12-22 23:31:30.445 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 - text/html;charset=utf-8 24265.5791ms
+2021-12-22 23:31:30.478 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - -
+2021-12-22 23:31:30.483 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 4.5796ms
+2021-12-22 23:31:30.610 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - -
+2021-12-22 23:31:30.611 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-12-22 23:31:30.611 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:31:33.252 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 106.2951 ms
+2021-12-22 23:31:33.254 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2644.2055ms
+2021-12-22 23:31:37.600 +05:00 [DBG] Connection id "0HME5F4RFP99U" received FIN.
+2021-12-22 23:31:37.610 +05:00 [DBG] Connection id "0HME5F4RFP99U" is closed. The last processed stream ID was 5.
+2021-12-22 23:31:37.611 +05:00 [DBG] Connection id "0HME5F4RFP99U" sending FIN because: "The client closed the connection."
+2021-12-22 23:31:37.613 +05:00 [DBG] Connection id "0HME5F4RFP99U" stopped.
+2021-12-22 23:31:46.857 +05:00 [DBG] Connection id "0HME5F4RFP99V" accepted.
+2021-12-22 23:31:46.857 +05:00 [DBG] Connection id "0HME5F4RFP99V" started.
+2021-12-22 23:31:46.874 +05:00 [DBG] Connection 0HME5F4RFP99V established using the following protocol: "Tls12"
+2021-12-22 23:31:46.886 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:31:46.895 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:31:46.895 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:31:54.070 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:31:54.077 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:31:54.781 +05:00 [INF] Hey there
+2021-12-22 23:31:56.662 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:31:56.702 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:32:33.194 +05:00 [INF] HTTP GET /api/v1/users responded 200 in 2634.7216 ms
+2021-12-22 23:32:33.196 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 46310.4696ms
+2021-12-22 23:32:37.614 +05:00 [DBG] Connection id "0HME5F4RFP99V" received FIN.
+2021-12-22 23:32:37.614 +05:00 [DBG] Connection id "0HME5F4RFP99V" sending FIN because: "The client closed the connection."
+2021-12-22 23:32:37.614 +05:00 [DBG] Connection id "0HME5F4RFP99V" is closed. The last processed stream ID was 1.
+2021-12-22 23:32:37.615 +05:00 [DBG] Connection id "0HME5F4RFP99V" stopped.
+2021-12-22 23:33:07.844 +05:00 [DBG] Connection id "0HME5F4RFP9A0" accepted.
+2021-12-22 23:33:07.855 +05:00 [DBG] Connection id "0HME5F4RFP9A0" started.
+2021-12-22 23:33:07.872 +05:00 [DBG] Connection 0HME5F4RFP9A0 established using the following protocol: "Tls12"
+2021-12-22 23:33:07.886 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:33:07.888 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:33:07.888 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:33:14.538 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:33:14.538 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:33:15.343 +05:00 [INF] Hey there
+2021-12-22 23:33:15.849 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:33:15.850 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:39:41.446 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:39:41.571 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:39:41.687 +05:00 [DBG] Hosting starting
+2021-12-22 23:39:41.971 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4AF406B3A348771EC5A0C3CD2D57DB5D5BE77FB9)
+2021-12-22 23:39:42.040 +05:00 [INF] Now listening on: https://localhost:7224
+2021-12-22 23:39:42.054 +05:00 [DBG] Connection id "0HME5F9LF3B8I" received FIN.
+2021-12-22 23:39:42.061 +05:00 [DBG] Connection id "0HME5F9LF3B8I" accepted.
+2021-12-22 23:39:42.062 +05:00 [DBG] Connection id "0HME5F9LF3B8I" started.
+2021-12-22 23:39:42.080 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:39:42.122 +05:00 [DBG] Connection id "0HME5F9LF3B8I" stopped.
+2021-12-22 23:39:42.125 +05:00 [DBG] Connection id "0HME5F9LF3B8I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:39:42.227 +05:00 [INF] Now listening on: http://localhost:5180
+2021-12-22 23:39:42.228 +05:00 [DBG] Loaded hosting startup assembly DigitalBanking
+2021-12-22 23:39:42.229 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-12-22 23:39:42.229 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2021-12-22 23:39:42.229 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 23:39:42.229 +05:00 [INF] Hosting environment: Development
+2021-12-22 23:39:42.230 +05:00 [INF] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-22 23:39:42.231 +05:00 [DBG] Hosting started
+2021-12-22 23:39:42.757 +05:00 [DBG] Connection id "0HME5F9LF3B8J" accepted.
+2021-12-22 23:39:42.759 +05:00 [DBG] Connection id "0HME5F9LF3B8J" started.
+2021-12-22 23:39:42.894 +05:00 [DBG] Connection 0HME5F9LF3B8J established using the following protocol: "Tls12"
+2021-12-22 23:39:43.008 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:39:43.066 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-12-22 23:39:43.113 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:39:43.113 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:39:48.350 +05:00 [INF] HTTP GET /index.html responded 200 in 81.4633 ms
+2021-12-22 23:39:48.426 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2021-12-22 23:39:48.442 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2021-12-22 23:39:48.446 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 - text/html;charset=utf-8 5444.6664ms
+2021-12-22 23:39:48.482 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - -
+2021-12-22 23:39:48.489 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 6.6309ms
+2021-12-22 23:39:48.621 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - -
+2021-12-22 23:39:48.622 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-12-22 23:39:48.622 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:39:49.754 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 102.2125 ms
+2021-12-22 23:39:49.757 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1136.0073ms
+2021-12-22 23:39:52.768 +05:00 [DBG] Connection id "0HME5F9LF3B8J" received FIN.
+2021-12-22 23:39:52.775 +05:00 [DBG] Connection id "0HME5F9LF3B8J" is closed. The last processed stream ID was 5.
+2021-12-22 23:39:52.775 +05:00 [DBG] Connection id "0HME5F9LF3B8J" sending FIN because: "The client closed the connection."
+2021-12-22 23:39:52.777 +05:00 [DBG] Connection id "0HME5F9LF3B8J" stopped.
+2021-12-22 23:39:59.591 +05:00 [DBG] Connection id "0HME5F9LF3B8K" accepted.
+2021-12-22 23:39:59.591 +05:00 [DBG] Connection id "0HME5F9LF3B8K" started.
+2021-12-22 23:39:59.604 +05:00 [DBG] Connection 0HME5F9LF3B8K established using the following protocol: "Tls12"
+2021-12-22 23:39:59.614 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:39:59.621 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:39:59.621 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:40:14.627 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:40:14.636 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:40:14.645 +05:00 [INF] Hey there
+2021-12-22 23:40:14.646 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:40:14.651 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:40:14.652 +05:00 [INF] HTTP GET /api/v1/users responded 200 in 25.7241 ms
+2021-12-22 23:40:21.290 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 21676.3468ms
+2021-12-22 23:40:42.037 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:40:42.043 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:40:42.043 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:40:46.918 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:40:46.919 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:40:46.920 +05:00 [INF] Hey there
+2021-12-22 23:40:46.921 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:40:46.922 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:40:46.923 +05:00 [INF] HTTP GET /api/v1/users responded 200 in 4.7061 ms
+2021-12-22 23:40:48.961 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 6924.1925ms
+2021-12-22 23:41:01.363 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:41:01.364 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:41:01.364 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:41:16.564 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:41:16.565 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:41:17.396 +05:00 [INF] Hey there
+2021-12-22 23:41:18.187 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:41:18.229 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:41:18.258 +05:00 [INF] HTTP GET /api/v1/users responded 200 in 1686.3663 ms
+2021-12-22 23:41:38.691 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 37328.6035ms
+2021-12-22 23:41:41.572 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:41:41.574 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:41:41.574 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:41:49.729 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:41:49.729 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:41:50.699 +05:00 [INF] Hey there
+2021-12-22 23:41:51.970 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:41:51.976 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:42:20.292 +05:00 [INF] HTTP GET /api/v1/users responded 200 in 2247.3853 ms
+2021-12-22 23:42:20.293 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 38721.0024ms
+2021-12-22 23:42:23.887 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:42:23.889 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:42:23.889 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:43:19.538 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:43:19.538 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:43:22.880 +05:00 [INF] Hey there
+2021-12-22 23:43:25.037 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:43:25.039 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:43:41.735 +05:00 [INF] HTTP GET /api/v1/users responded 200 in 5501.5645 ms
+2021-12-22 23:43:41.737 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 77849.2392ms
+2021-12-22 23:43:44.981 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:43:44.983 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:43:44.983 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:43:54.431 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:43:54.431 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:43:56.076 +05:00 [INF] Hey there
+2021-12-22 23:43:56.076 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:43:56.078 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:43:59.765 +05:00 [INF] HTTP GET /api/v1/users responded 200 in 1648.3845 ms
+2021-12-22 23:51:54.531 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:51:54.579 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:51:54.614 +05:00 [DBG] Hosting starting
+2021-12-22 23:51:54.879 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4AF406B3A348771EC5A0C3CD2D57DB5D5BE77FB9)
+2021-12-22 23:51:54.935 +05:00 [INF] Now listening on: https://localhost:7224
+2021-12-22 23:51:55.135 +05:00 [DBG] Connection id "0HME5FGFU97MT" accepted.
+2021-12-22 23:51:55.135 +05:00 [DBG] Connection id "0HME5FGFU97MS" accepted.
+2021-12-22 23:51:55.136 +05:00 [DBG] Connection id "0HME5FGFU97MS" started.
+2021-12-22 23:51:55.136 +05:00 [DBG] Connection id "0HME5FGFU97MT" started.
+2021-12-22 23:51:55.141 +05:00 [INF] Now listening on: http://localhost:5180
+2021-12-22 23:51:55.142 +05:00 [DBG] Loaded hosting startup assembly DigitalBanking
+2021-12-22 23:51:55.142 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-12-22 23:51:55.142 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2021-12-22 23:51:55.143 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 23:51:55.143 +05:00 [INF] Hosting environment: Development
+2021-12-22 23:51:55.144 +05:00 [INF] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-22 23:51:55.145 +05:00 [DBG] Hosting started
+2021-12-22 23:51:55.161 +05:00 [DBG] Connection id "0HME5FGFU97MT" received FIN.
+2021-12-22 23:51:55.161 +05:00 [DBG] Connection id "0HME5FGFU97MS" received FIN.
+2021-12-22 23:51:55.181 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:51:55.181 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:51:55.272 +05:00 [DBG] Connection id "0HME5FGFU97MS" stopped.
+2021-12-22 23:51:55.272 +05:00 [DBG] Connection id "0HME5FGFU97MT" stopped.
+2021-12-22 23:51:55.273 +05:00 [DBG] Connection id "0HME5FGFU97MS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:51:55.273 +05:00 [DBG] Connection id "0HME5FGFU97MT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:51:55.788 +05:00 [DBG] Connection id "0HME5FGFU97MU" accepted.
+2021-12-22 23:51:55.788 +05:00 [DBG] Connection id "0HME5FGFU97MU" started.
+2021-12-22 23:51:55.866 +05:00 [DBG] Connection 0HME5FGFU97MU established using the following protocol: "Tls12"
+2021-12-22 23:51:55.953 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:51:55.992 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-12-22 23:51:56.020 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:51:56.021 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:52:04.145 +05:00 [INF] Request Body: 
+2021-12-22 23:52:05.466 +05:00 [INF] Response Body: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"API"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2021-12-22 23:52:14.181 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2021-12-22 23:52:14.212 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2021-12-22 23:52:14.215 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 - text/html;charset=utf-8 18265.9159ms
+2021-12-22 23:52:14.254 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - -
+2021-12-22 23:52:14.261 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/_framework/aspnetcore-browser-refresh.js - - - 200 11948 application/javascript;+charset=utf-8 6.5575ms
+2021-12-22 23:52:14.407 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - -
+2021-12-22 23:52:14.408 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2021-12-22 23:52:14.408 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:52:15.253 +05:00 [INF] Request Body: 
+2021-12-22 23:52:16.140 +05:00 [INF] Response Body: {
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Digital banking APIs",
+    "description": "Digital banking APIs",
+    "contact": {
+      "name": "Sana",
+      "url": "https://github.com/nikiforovall"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "DigitalBanking"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "get": {
+        "tags": [
+          "UserModule"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UserModule"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/v2/users": {
+      "get": {
+        "tags": [
+          "v2Users"
+        ],
+        "operationId": "Search",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UserResponse"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "UserRequest": {
+        "required": [
+          "name"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "minLength": 3,
+            "type": "string"
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserResponse": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "contactNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}
+2021-12-22 23:52:16.734 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2327.6247ms
+2021-12-22 23:52:22.893 +05:00 [DBG] Connection id "0HME5FGFU97MU" received FIN.
+2021-12-22 23:52:22.898 +05:00 [DBG] Connection id "0HME5FGFU97MU" is closed. The last processed stream ID was 5.
+2021-12-22 23:52:22.899 +05:00 [DBG] Connection id "0HME5FGFU97MU" sending FIN because: "The client closed the connection."
+2021-12-22 23:52:22.900 +05:00 [DBG] Connection id "0HME5FGFU97MU" stopped.
+2021-12-22 23:52:54.854 +05:00 [DBG] Connection id "0HME5FGFU97MV" accepted.
+2021-12-22 23:52:54.863 +05:00 [DBG] Connection id "0HME5FGFU97MV" started.
+2021-12-22 23:52:54.884 +05:00 [DBG] Connection 0HME5FGFU97MV established using the following protocol: "Tls12"
+2021-12-22 23:52:54.897 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:52:54.910 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:52:54.910 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:52:57.001 +05:00 [INF] Request Body: 
+2021-12-22 23:52:57.700 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:52:57.711 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:52:58.494 +05:00 [INF] Hey there
+2021-12-22 23:52:58.497 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:52:58.501 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:52:58.502 +05:00 [INF] Response Body: {"name":"sana","contact":"03323344553"}
+2021-12-22 23:52:59.217 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 4320.4835ms
+2021-12-22 23:53:02.901 +05:00 [DBG] Connection id "0HME5FGFU97MV" received FIN.
+2021-12-22 23:53:02.902 +05:00 [DBG] Connection id "0HME5FGFU97MV" is closed. The last processed stream ID was 1.
+2021-12-22 23:53:02.902 +05:00 [DBG] Connection id "0HME5FGFU97MV" sending FIN because: "The client closed the connection."
+2021-12-22 23:53:02.903 +05:00 [DBG] Connection id "0HME5FGFU97MV" stopped.
+2021-12-22 23:54:04.209 +05:00 [DBG] Connection id "0HME5FGFU97N0" accepted.
+2021-12-22 23:54:04.218 +05:00 [DBG] Connection id "0HME5FGFU97N0" started.
+2021-12-22 23:54:04.233 +05:00 [DBG] Connection 0HME5FGFU97N0 established using the following protocol: "Tls12"
+2021-12-22 23:54:04.246 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:54:04.250 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:54:04.250 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:54:28.485 +05:00 [INF] Request Body: 
+2021-12-22 23:54:29.274 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:54:29.275 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:54:30.259 +05:00 [INF] Hey there
+2021-12-22 23:54:30.260 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:54:30.262 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:54:30.263 +05:00 [INF] Response Body: {"name":"sana","contact":"03323344553"}
+2021-12-22 23:54:31.136 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 26889.4285ms
+2021-12-22 23:55:36.479 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:55:36.482 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:55:36.485 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:55:36.508 +05:00 [INF] Request Body: 
+2021-12-22 23:55:36.509 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:55:36.509 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:55:36.512 +05:00 [INF] Hey there
+2021-12-22 23:55:36.513 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:55:36.514 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:55:36.515 +05:00 [INF] Response Body: {"name":"sana","contact":"03323344553"}
+2021-12-22 23:55:36.516 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 36.8479ms
+2021-12-22 23:56:02.935 +05:00 [DBG] Connection id "0HME5FGFU97N0" received FIN.
+2021-12-22 23:56:02.936 +05:00 [DBG] Connection id "0HME5FGFU97N0" is closed. The last processed stream ID was 3.
+2021-12-22 23:56:02.937 +05:00 [DBG] Connection id "0HME5FGFU97N0" stopped.
+2021-12-22 23:56:02.940 +05:00 [DBG] Connection id "0HME5FGFU97N0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:56:29.949 +05:00 [DBG] Connection id "0HME5FGFU97N1" accepted.
+2021-12-22 23:56:29.958 +05:00 [DBG] Connection id "0HME5FGFU97N1" started.
+2021-12-22 23:56:29.975 +05:00 [DBG] Connection 0HME5FGFU97N1 established using the following protocol: "Tls12"
+2021-12-22 23:56:29.991 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:56:29.994 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:56:29.994 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:56:29.994 +05:00 [INF] Request Body: 
+2021-12-22 23:56:29.995 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:56:29.995 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:56:29.996 +05:00 [INF] Hey there
+2021-12-22 23:56:29.996 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:56:29.997 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:56:29.998 +05:00 [INF] Response Body: {"name":"sana","contact":"03323344553"}
+2021-12-22 23:56:29.998 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 - application/json;+charset=utf-8 8.0438ms
+2021-12-22 23:57:22.952 +05:00 [DBG] Connection id "0HME5FGFU97N1" received FIN.
+2021-12-22 23:57:22.969 +05:00 [DBG] Connection id "0HME5FGFU97N1" is closed. The last processed stream ID was 1.
+2021-12-22 23:57:22.972 +05:00 [DBG] Connection id "0HME5FGFU97N1" sending FIN because: "The client closed the connection."
+2021-12-22 23:57:22.976 +05:00 [DBG] Connection id "0HME5FGFU97N1" stopped.
+2021-12-22 23:58:18.019 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:58:18.055 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:58:18.087 +05:00 [DBG] Hosting starting
+2021-12-22 23:58:18.281 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4AF406B3A348771EC5A0C3CD2D57DB5D5BE77FB9)
+2021-12-22 23:58:18.343 +05:00 [INF] Now listening on: https://localhost:7224
+2021-12-22 23:58:18.604 +05:00 [DBG] Connection id "0HME5FK27A4LL" accepted.
+2021-12-22 23:58:18.604 +05:00 [DBG] Connection id "0HME5FK27A4LM" accepted.
+2021-12-22 23:58:18.607 +05:00 [DBG] Connection id "0HME5FK27A4LM" started.
+2021-12-22 23:58:18.607 +05:00 [DBG] Connection id "0HME5FK27A4LL" started.
+2021-12-22 23:58:18.651 +05:00 [DBG] Connection id "0HME5FK27A4LM" received FIN.
+2021-12-22 23:58:18.664 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:58:18.678 +05:00 [DBG] Connection id "0HME5FK27A4LL" received FIN.
+2021-12-22 23:58:18.868 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:58:18.876 +05:00 [DBG] Connection id "0HME5FK27A4LL" stopped.
+2021-12-22 23:58:18.885 +05:00 [DBG] Connection id "0HME5FK27A4LM" stopped.
+2021-12-22 23:58:18.887 +05:00 [DBG] Connection id "0HME5FK27A4LM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:58:18.920 +05:00 [DBG] Connection id "0HME5FK27A4LL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:58:18.954 +05:00 [INF] Now listening on: http://localhost:5180
+2021-12-22 23:58:18.956 +05:00 [DBG] Loaded hosting startup assembly DigitalBanking
+2021-12-22 23:58:18.956 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-12-22 23:58:18.956 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2021-12-22 23:58:18.957 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 23:58:18.958 +05:00 [INF] Hosting environment: Development
+2021-12-22 23:58:18.959 +05:00 [INF] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-22 23:58:18.960 +05:00 [DBG] Hosting started
+2021-12-22 23:58:19.509 +05:00 [DBG] Connection id "0HME5FK27A4LN" accepted.
+2021-12-22 23:58:19.513 +05:00 [DBG] Connection id "0HME5FK27A4LN" started.
+2021-12-22 23:58:19.602 +05:00 [DBG] Connection 0HME5FK27A4LN established using the following protocol: "Tls12"
+2021-12-22 23:58:19.726 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:58:19.846 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-12-22 23:58:19.914 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:58:19.915 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:58:19.935 +05:00 [INF] Request Body: 
+2021-12-22 23:58:20.064 +05:00 [INF] Response Body: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"API"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2021-12-22 23:58:20.099 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 0 text/html;charset=utf-8 380.8462ms
+2021-12-22 23:58:22.961 +05:00 [DBG] Connection id "0HME5FK27A4LN" received FIN.
+2021-12-22 23:58:22.968 +05:00 [DBG] Connection id "0HME5FK27A4LN" is closed. The last processed stream ID was 1.
+2021-12-22 23:58:22.968 +05:00 [DBG] Connection id "0HME5FK27A4LN" sending FIN because: "The client closed the connection."
+2021-12-22 23:58:22.969 +05:00 [DBG] Connection id "0HME5FK27A4LN" stopped.
+2021-12-22 23:58:36.149 +05:00 [DBG] Found validator UserValidator
+2021-12-22 23:58:36.254 +05:00 [DBG] Found module AppNet6.Modules.UserModule
+2021-12-22 23:58:36.328 +05:00 [DBG] Hosting starting
+2021-12-22 23:58:36.698 +05:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 4AF406B3A348771EC5A0C3CD2D57DB5D5BE77FB9)
+2021-12-22 23:58:36.785 +05:00 [INF] Now listening on: https://localhost:7224
+2021-12-22 23:58:37.013 +05:00 [INF] Now listening on: http://localhost:5180
+2021-12-22 23:58:37.014 +05:00 [DBG] Loaded hosting startup assembly DigitalBanking
+2021-12-22 23:58:37.014 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2021-12-22 23:58:37.014 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2021-12-22 23:58:37.014 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-22 23:58:37.014 +05:00 [INF] Hosting environment: Development
+2021-12-22 23:58:37.015 +05:00 [INF] Content root path: E:\sanaFolder\TeamArchitects\code\AppNet6\
+2021-12-22 23:58:37.015 +05:00 [DBG] Hosting started
+2021-12-22 23:58:37.062 +05:00 [DBG] Connection id "0HME5FK7NB9PD" accepted.
+2021-12-22 23:58:37.062 +05:00 [DBG] Connection id "0HME5FK7NB9PE" accepted.
+2021-12-22 23:58:37.064 +05:00 [DBG] Connection id "0HME5FK7NB9PD" started.
+2021-12-22 23:58:37.064 +05:00 [DBG] Connection id "0HME5FK7NB9PE" started.
+2021-12-22 23:58:37.095 +05:00 [DBG] Connection id "0HME5FK7NB9PD" received FIN.
+2021-12-22 23:58:37.095 +05:00 [DBG] Connection id "0HME5FK7NB9PE" received FIN.
+2021-12-22 23:58:37.108 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:58:37.108 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|187_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2021-12-22 23:58:37.144 +05:00 [DBG] Connection id "0HME5FK7NB9PE" stopped.
+2021-12-22 23:58:37.144 +05:00 [DBG] Connection id "0HME5FK7NB9PD" stopped.
+2021-12-22 23:58:37.145 +05:00 [DBG] Connection id "0HME5FK7NB9PD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:58:37.145 +05:00 [DBG] Connection id "0HME5FK7NB9PE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-12-22 23:58:37.794 +05:00 [DBG] Connection id "0HME5FK7NB9PF" accepted.
+2021-12-22 23:58:37.799 +05:00 [DBG] Connection id "0HME5FK7NB9PF" started.
+2021-12-22 23:58:37.881 +05:00 [DBG] Connection 0HME5FK7NB9PF established using the following protocol: "Tls12"
+2021-12-22 23:58:37.980 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/index.html - -
+2021-12-22 23:58:38.021 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2021-12-22 23:58:38.072 +05:00 [DBG] No candidates found for the request path '/index.html'
+2021-12-22 23:58:38.075 +05:00 [DBG] Request did not match any endpoints
+2021-12-22 23:58:38.099 +05:00 [INF] Request Body: 
+2021-12-22 23:58:38.266 +05:00 [INF] Response Body: <!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css">
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+
+        html {
+            box-sizing: border-box;
+            overflow: -moz-scrollbars-vertical;
+            overflow-y: scroll;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        body {
+            margin: 0;
+            background: #fafafa;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div id="swagger-ui"></div>
+
+    <!-- Workaround for https://github.com/swagger-api/swagger-editor/issues/1371 -->
+    <script>
+        if (window.navigator.userAgent.indexOf("Edge") > -1) {
+            console.log("Removing native Edge fetch in favor of swagger-ui's polyfill")
+            window.fetch = undefined;
+        }
+    </script>
+
+    <script src="./swagger-ui-bundle.js"></script>
+    <script src="./swagger-ui-standalone-preset.js"></script>
+    <script>
+        /* Source: https://gist.github.com/lamberta/3768814
+         * Parse a string function definition and return a function object. Does not use eval.
+         * @param {string} str
+         * @return {function}
+         *
+         * Example:
+         *  var f = function (x, y) { return x * y; };
+         *  var g = parseFunction(f.toString());
+         *  g(33, 3); //=> 99
+         */
+        function parseFunction(str) {
+            if (!str) return void (0);
+
+            var fn_body_idx = str.indexOf('{'),
+                fn_body = str.substring(fn_body_idx + 1, str.lastIndexOf('}')),
+                fn_declare = str.substring(0, fn_body_idx),
+                fn_params = fn_declare.substring(fn_declare.indexOf('(') + 1, fn_declare.lastIndexOf(')')),
+                args = fn_params.split(',');
+
+            args.push(fn_body);
+
+            function Fn() {
+                return Function.apply(this, args);
+            }
+            Fn.prototype = Function.prototype;
+
+            return new Fn();
+        }
+
+        window.onload = function () {
+            var configObject = JSON.parse('{"urls":[{"url":"/swagger/v1/swagger.json","name":"API"}],"deepLinking":false,"persistAuthorization":false,"displayOperationId":false,"defaultModelsExpandDepth":1,"defaultModelExpandDepth":1,"defaultModelRendering":"example","displayRequestDuration":false,"docExpansion":"list","showExtensions":false,"showCommonExtensions":false,"supportedSubmitMethods":["get","put","post","delete","options","head","patch","trace"],"tryItOutEnabled":false}');
+            var oauthConfigObject = JSON.parse('{"scopeSeparator":" ","scopes":[],"useBasicAuthenticationWithAccessCodeGrant":false,"usePkceWithAuthorizationCodeGrant":false}');
+
+            // Workaround for https://github.com/swagger-api/swagger-ui/issues/5945
+            configObject.urls.forEach(function (item) {
+                if (item.url.startsWith("http") || item.url.startsWith("/")) return;
+                item.url = window.location.href.replace("index.html", item.url).split('#')[0];
+            });
+
+            // If validatorUrl is not explicitly provided, disable the feature by setting to null
+            if (!configObject.hasOwnProperty("validatorUrl"))
+                configObject.validatorUrl = null
+
+            // If oauth2RedirectUrl isn't specified, use the built-in default
+            if (!configObject.hasOwnProperty("oauth2RedirectUrl"))
+                configObject.oauth2RedirectUrl = (new URL("oauth2-redirect.html", window.location.href)).href;
+
+            // Apply mandatory parameters
+            configObject.dom_id = "#swagger-ui";
+            configObject.presets = [SwaggerUIBundle.presets.apis, SwaggerUIStandalonePreset];
+            configObject.layout = "StandaloneLayout";
+
+            // Parse and add interceptor functions
+            var interceptors = JSON.parse('{"RequestInterceptorFunction":null,"ResponseInterceptorFunction":null}');
+            if (interceptors.RequestInterceptorFunction)
+                configObject.requestInterceptor = parseFunction(interceptors.RequestInterceptorFunction);
+            if (interceptors.ResponseInterceptorFunction)
+                configObject.responseInterceptor = parseFunction(interceptors.ResponseInterceptorFunction);
+
+            // Begin Swagger UI call region
+
+            const ui = SwaggerUIBundle(configObject);
+
+            ui.initOAuth(oauthConfigObject);
+
+            // End Swagger UI call region
+
+            window.ui = ui
+        }
+    </script>
+</body>
+</html>
+
+2021-12-22 23:58:38.299 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/index.html - - - 200 0 text/html;charset=utf-8 324.6507ms
+2021-12-22 23:58:47.964 +05:00 [DBG] Connection id "0HME5FK7NB9PF" received FIN.
+2021-12-22 23:58:47.968 +05:00 [DBG] Connection id "0HME5FK7NB9PF" is closed. The last processed stream ID was 1.
+2021-12-22 23:58:47.969 +05:00 [DBG] Connection id "0HME5FK7NB9PF" sending FIN because: "The client closed the connection."
+2021-12-22 23:58:47.971 +05:00 [DBG] Connection id "0HME5FK7NB9PF" stopped.
+2021-12-22 23:58:55.211 +05:00 [DBG] Connection id "0HME5FK7NB9PG" accepted.
+2021-12-22 23:58:55.212 +05:00 [DBG] Connection id "0HME5FK7NB9PG" started.
+2021-12-22 23:58:55.228 +05:00 [DBG] Connection 0HME5FK7NB9PG established using the following protocol: "Tls12"
+2021-12-22 23:58:57.965 +05:00 [DBG] Connection id "0HME5FK7NB9PG" received FIN.
+2021-12-22 23:58:57.966 +05:00 [DBG] Connection id "0HME5FK7NB9PG" is closed. The last processed stream ID was 0.
+2021-12-22 23:58:57.966 +05:00 [DBG] Connection id "0HME5FK7NB9PG" sending FIN because: "The client closed the connection."
+2021-12-22 23:58:57.966 +05:00 [DBG] Connection id "0HME5FK7NB9PG" stopped.
+2021-12-22 23:59:11.148 +05:00 [DBG] Connection id "0HME5FK7NB9PH" accepted.
+2021-12-22 23:59:11.149 +05:00 [DBG] Connection id "0HME5FK7NB9PH" started.
+2021-12-22 23:59:11.162 +05:00 [DBG] Connection 0HME5FK7NB9PH established using the following protocol: "Tls12"
+2021-12-22 23:59:11.172 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7224/api/v1/users - -
+2021-12-22 23:59:11.178 +05:00 [DBG] 1 candidate(s) found for the request path '/api/v1/users'
+2021-12-22 23:59:11.179 +05:00 [DBG] Request matched endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:59:11.179 +05:00 [INF] Request Body: 
+2021-12-22 23:59:11.181 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2021-12-22 23:59:11.191 +05:00 [INF] Executing endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:59:11.199 +05:00 [INF] Hey there
+2021-12-22 23:59:11.201 +05:00 [INF] Writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]' with status code '200'.
+2021-12-22 23:59:11.206 +05:00 [INF] Executed endpoint 'HTTP: GET /api/v1/users => getUser'
+2021-12-22 23:59:11.207 +05:00 [INF] Response Body: {"name":"sana","contact":"03323344553"}
+2021-12-22 23:59:11.208 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7224/api/v1/users - - - 200 0 application/json;+charset=utf-8 35.7959ms
+2021-12-22 23:59:17.971 +05:00 [DBG] Connection id "0HME5FK7NB9PH" received FIN.
+2021-12-22 23:59:17.971 +05:00 [DBG] Connection id "0HME5FK7NB9PH" is closed. The last processed stream ID was 1.
+2021-12-22 23:59:17.971 +05:00 [DBG] Connection id "0HME5FK7NB9PH" sending FIN because: "The client closed the connection."
+2021-12-22 23:59:17.973 +05:00 [DBG] Connection id "0HME5FK7NB9PH" stopped.
