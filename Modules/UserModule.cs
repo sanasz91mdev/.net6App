@@ -27,10 +27,10 @@ namespace AppNet6.Modules
             app.MapPost("/api/v1/users", createUser);
 
             var endPt1 = new RouteEndpointBuilder(emptyDelegate, RoutePatternFactory.Parse("/api/v1/users"), 1);
-            app.Map(endPt1.RoutePattern, get);
+            app.Map(endPt1.RoutePattern, getUser1);
 
-            var endPt = new RouteEndpointBuilder(emptyDelegate, RoutePatternFactory.Parse("/api/v1/users"),2);
-            app.Map(endPt.RoutePattern, getUser);
+            var endPt2 = new RouteEndpointBuilder(emptyDelegate, RoutePatternFactory.Parse("/api/v1/users"),2);
+            app.Map(endPt2.RoutePattern, getUser2);
 
             //try
             //{
@@ -51,7 +51,7 @@ namespace AppNet6.Modules
         }
 
 
-        private async Task<IResult> getUser()
+        private async Task<IResult> getUser1()
         {
             // logger.LogInformation("Get users v1 called.");
 
@@ -61,6 +61,19 @@ namespace AppNet6.Modules
             {
                 name = "sana",
                 contact = "0332111111"
+            });
+        }
+
+        private async Task<IResult> getUser2()
+        {
+            // logger.LogInformation("Get users v1 called.");
+
+            _logger.LogInfo(nameof(UserModule), "Get users v1 called.");
+
+            return Results.Ok(new
+            {
+                name = "anam",
+                contact = "03322222222"
             });
         }
 
