@@ -26,21 +26,13 @@ namespace AppNet6.Modules
                 .WithName("Search").WithTags("v2Users");
             app.MapPost("/api/v1/users", createUser);
 
-            var endPt1 = new RouteEndpointBuilder(emptyDelegate, RoutePatternFactory.Parse("/api/v1/users"), 1);
-            app.Map(endPt1.RoutePattern, getUser1);
+            var ss = app.MapGet("/api/v1/users", getUser1);
+            ss.Add(static builder => ((RouteEndpointBuilder)builder).Order =-1);
+            ss.Add(static builder => ((RouteEndpointBuilder)builder).DisplayName = "get Users Product");
 
-            var endPt2 = new RouteEndpointBuilder(emptyDelegate, RoutePatternFactory.Parse("/api/v1/users"),2);
-            app.Map(endPt2.RoutePattern, getUser2);
-
-            //try
-            //{
-            //    Dictionary<string, object> d1 = new Dictionary<string, object>();
-            //    d1.Add("Order", "-1");
-            //    var endPt2 = RoutePatternFactory.Parse("/api/v3/users", d1, d1);
-            //}
-            //catch (Exception ex)
-            //{
-            //}
+            var aa = app.MapGet("/api/v1/users", getUser2);
+            aa.Add(static builder => ((RouteEndpointBuilder)builder).Order = 1);
+            aa.Add(static builder => ((RouteEndpointBuilder)builder).DisplayName = "get users Customization");
 
 
         }
