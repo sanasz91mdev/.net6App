@@ -52,6 +52,7 @@ public static partial class ServiceCollectionExtensions
                     },
                     new List<string>()
             }});
+            c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
         });
 
         return services;

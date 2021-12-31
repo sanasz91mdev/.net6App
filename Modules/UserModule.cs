@@ -27,11 +27,11 @@ namespace AppNet6.Modules
             app.MapPost("/api/v1/users", createUser);
 
             var ss = app.MapGet("/api/v1/users", getUser1);
-            ss.Add(static builder => ((RouteEndpointBuilder)builder).Order =-1);
+            ss.Add(static builder => ((RouteEndpointBuilder)builder).Order =1);
             ss.Add(static builder => ((RouteEndpointBuilder)builder).DisplayName = "get Users Product");
 
             var aa = app.MapGet("/api/v1/users", getUser2);
-            aa.Add(static builder => ((RouteEndpointBuilder)builder).Order = 1);
+            aa.Add(static builder => ((RouteEndpointBuilder)builder).Order = -1);
             aa.Add(static builder => ((RouteEndpointBuilder)builder).DisplayName = "get users Customization");
 
 
