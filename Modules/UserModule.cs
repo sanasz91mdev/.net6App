@@ -1,10 +1,10 @@
-﻿using AppNet6.DTO.Requests;
-using AppNet6.DTO.Response;
-using DataAccess;
+﻿using DataAccess;
 using FluentValidation.Results;
 using MiniValidation;
 using DigitalBanking.ServiceExtensions;
 using Microsoft.AspNetCore.Routing.Patterns;
+using Application.DTO.Response;
+using Application.DTO.Requests;
 
 namespace AppNet6.Modules
 {
@@ -27,7 +27,7 @@ namespace AppNet6.Modules
             app.MapPost("/api/v1/users", createUser);
 
             var ss = app.MapGet("/api/v1/users", getUser1);
-            ss.Add(static builder => ((RouteEndpointBuilder)builder).Order =1);
+            ss.Add(static builder => ((RouteEndpointBuilder)builder).Order = 1);
             ss.Add(static builder => ((RouteEndpointBuilder)builder).DisplayName = "get Users Product");
 
             var aa = app.MapGet("/api/v1/users", getUser2);
@@ -103,7 +103,7 @@ namespace AppNet6.Modules
         }
 
         private async Task<IResult> createUser(UserRequest user, ILogger<UserModule> logger)
-        {;
+        {
             logger.LogInformation("Get User called.");
             //MiniValidator
             MiniValidator.TryValidate(user, out var errors);
